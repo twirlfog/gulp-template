@@ -7,8 +7,8 @@
     "start": "gulp start",
     "build": "gulp build",
     "lighthouse": "gulp build && gulp lighthouse",
-    "test": "editorconfig-cli & stylelint ./src/styles/**/*.scss --syntax scss & eslint ./src/js",
-    "stylelint-fix": "stylelint ./src/styles/**/*.scss --fix --syntax scss",
+    "test": "editorconfig-cli & stylelint ./src/styles/**/*.scss & eslint ./src/js",
+    "stylelint-fix": "stylelint ./src/styles/**/*.scss --fix",
     "eslint-fix": "eslint ./src/js/** --fix"
   },
   "keywords": [],
@@ -57,7 +57,8 @@
     "stylelint": "^14.3.0",
     "stylelint-config-htmlacademy": "^0.1.12",
     "stylelint-config-standard": "^24.0.0",
-    "stylelint-config-standard-scss": "^1.1.0",
+    "stylelint-config-standard-scss": "^3.0.0",
+    "stylelint-order": "^5.0.0",
     "stylelint-scss": "^4.1.0",
     "webpack-stream": "^5.2.1"
   },

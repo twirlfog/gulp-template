@@ -1,9 +1,10 @@
 {
-  "plugins": ["stylelint-scss"],
+  "plugins": ["stylelint-scss", "stylelint-order"],
   "extends": [
     "stylelint-config-standard",
     "stylelint-config-standard-scss",
-    "stylelint-config-htmlacademy"
+    "stylelint-config-htmlacademy",
+    "stylelint-order"
   ],
   "rules": {
     "indentation": 2,
