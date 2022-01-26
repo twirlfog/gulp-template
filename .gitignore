@@ -192,3 +192,4 @@ reports/
 
 # Папка с собранными файлами проекта
 build/
+local_modules/
