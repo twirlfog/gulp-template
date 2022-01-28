@@ -55,7 +55,6 @@
     "node-sass": "^4.13.1",
     "open": "^7.0.2",
     "stylelint": "^14.3.0",
-    "stylelint-config-htmlacademy": "^0.1.12",
     "stylelint-config-standard": "^24.0.0",
     "stylelint-config-standard-scss": "^3.0.0",
     "stylelint-order": "^5.0.0",

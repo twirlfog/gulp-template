@@ -3,7 +3,6 @@
   "extends": [
     "stylelint-config-standard",
     "stylelint-config-standard-scss",
-    "stylelint-config-htmlacademy",
     "stylelint-order"
   ],
   "rules": {
