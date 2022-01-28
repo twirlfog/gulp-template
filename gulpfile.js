@@ -3,7 +3,6 @@ const gulp = require('gulp');
 const serve = require('./gulp/tasks/serve');
 const pug2html = require('./gulp/tasks/pug2html');
 const styles = require('./gulp/tasks/styles');
-const script = require('./gulp/tasks/script');
 const fonts = require('./gulp/tasks/fonts');
 const imageMinify = require('./gulp/tasks/imageMinify');
 const clean = require('./gulp/tasks/clean');
@@ -21,7 +20,6 @@ function setMode(isProduction = false) {
 const dev = gulp.parallel(
   pug2html,
   styles,
-  script,
   fonts,
   imageMinify,
   svgSprite
