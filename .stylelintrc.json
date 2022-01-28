@@ -8,6 +8,8 @@
   ],
   "rules": {
     "indentation": 2,
+    "color-named": "always-where-possible",
+    "scss/dollar-variable-pattern": null,
     "at-rule-no-vendor-prefix": true,
     "at-rule-empty-line-before": "always",
     "scss/selector-no-redundant-nesting-selector": true,
